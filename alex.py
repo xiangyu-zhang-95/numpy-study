@@ -38,3 +38,6 @@ for name in np.__all__:
     if name not in my_dir:
         print(f"{name} in np.__all__ but not in dir(np)")
 
+print(np.test)
+print("sys.platform:", sys.platform)
+print("np.use_hugepage: ", np.use_hugepage)
